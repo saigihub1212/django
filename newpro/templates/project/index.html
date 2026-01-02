@@ -1,0 +1,54 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Item List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .item-container {
+            max-width: 700px;
+            margin: auto;
+        }
+        .item-card {
+            background: #fff;
+            padding: 15px;
+            margin-bottom: 12px;
+            border-radius: 6px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .item-card h3 {
+            margin: 0 0 5px;
+        }
+        .empty {
+            text-align: center;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Items List</h1>
+
+<div class="item-container">
+    {% if items %}
+        {% for item in items %}
+            <div class="item-card">
+                <h3>{{ item.name }}</h3>
+                <p>{{ item.description }}</p>
+                <strong>Price:</strong> ₹{{ item.price }}
+            </div>
+        {% endfor %}
+    {% else %}
+        <p class="empty">No items available.</p>
+    {% endif %}
+</div>
+
+</body>
+</html> -->
